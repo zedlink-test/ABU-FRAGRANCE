@@ -12,7 +12,7 @@ export default function Contact({ language }: ContactProps) {
     email: 'البريد الإلكتروني',
     phoneNumber: '76 70 05 0778',
     addressText: 'ساحة الشهداء "زنيقة لعرايس القصبة"،16000 الجزائر',
-    emailAddress: 'info@abualautoor.com'
+    emailAddress: 'info@abufragrance.com'
   } : {
     title: 'Contact Us',
     phone: 'Phone',
@@ -20,7 +20,7 @@ export default function Contact({ language }: ContactProps) {
     email: 'Email',
     phoneNumber: '0778 05 70 76',
     addressText: 'Martyrs Square "Casbah Brides Alley", Algiers 16000, Algeria',
-    emailAddress: 'info@abualautoor.com'
+    emailAddress: 'info@abufragrance.com'
   };
 
   return (

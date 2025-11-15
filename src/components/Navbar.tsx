@@ -38,11 +38,11 @@ export default function Navbar({ language, setLanguage }: NavbarProps) {
           <div className="flex items-center gap-3">
             <img
               src="/1000028122.jpg"
-              alt="Abu Al-Autoor Logo"
+              alt="Abu Fragrance Logo"
               className="h-14 w-14 object-contain"
             />
             <span className="text-2xl font-bold text-[#6B1B3D]">
-              {language === 'ar' ? 'أبو العطور' : 'Abu Al-Autoor'}
+              {language === 'ar' ? 'أبو العطور' : 'Abu Fragrance'}
             </span>
           </div>
 

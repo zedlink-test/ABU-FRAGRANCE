@@ -14,11 +14,11 @@ export default function Hero({ language }: HeroProps) {
         <div className="animate-fadeInUp">
           <img
             src="/1000028122.jpg"
-            alt="Abu Al-Autoor"
+            alt="Abu Fragrance"
             className="w-48 h-48 mx-auto mb-8 object-contain drop-shadow-2xl animate-float"
           />
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
-            {language === 'ar' ? 'أبو العطور' : 'Abu Al-Autoor'}
+            {language === 'ar' ? 'أبو العطور' : 'Abu Fragrance'}
           </h1>
           <p className="text-2xl md:text-3xl text-[#B8860B] mb-8 animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
             {language === 'ar' ? 'جودة . سعر . مصداقية' : 'Quality . Price . Credibility'}

@@ -17,11 +17,11 @@ export default function Footer({ language }: FooterProps) {
           <div className="flex items-center gap-3">
             <img
               src="/1000028122.jpg"
-              alt="Abu Al-Autoor Logo"
+              alt="Abu Fragrance Logo"
               className="h-16 w-16 object-contain"
             />
             <span className="text-2xl font-bold text-[#B8860B]">
-              {language === 'ar' ? 'أبو العطور' : 'Abu Al-Autoor'}
+              {language === 'ar' ? 'أبو العطور' : 'Abu Fragrance'}
             </span>
           </div>
 
@@ -69,7 +69,7 @@ export default function Footer({ language }: FooterProps) {
   <p className="text-white/70">
     {language === 'ar'
       ? '© 2024 أبو العطور. جميع الحقوق محفوظة.'
-      : '© 2024 Abu Al-Autoor. All rights reserved.'}
+      : '© 2024 Abu Fragrance. All rights reserved.'}
   </p>
 
   <p className="text-white/70 mt-2">
